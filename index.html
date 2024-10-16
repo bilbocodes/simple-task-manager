@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+    <main>
+        <img src="assets/img/logo.jpg" alt="" class="image">
+        <div class="add-item">
+            <form>
+                <input type="text" name="text__add-item" id="text__add-item" placeholder="Digite a tarefa que deseja adicionar">
+                <button type="button" class="add-button" >Adicionar tarefa</button>
+            </form>
+        </div>
+        <div class="task-list">
+            <div class="todo">
+                <h2 class="title">Lista de tarefas</h2>
+                <hr class="line">
+                <div class="task-item">
+                    <ul class="list">
+                        <li class="list-item">
+                            <div class="check-item">
+                                <input type="checkbox" name="checkbox" id="checkbox">
+                                <label for="checkbox" class=label-checkbox">Estudar Javascript por 30 min</label>
+                            </div>
+
+                            <div class="date">
+                                <p>Segunda-feira (31/10/2022) às 08:30</p>
+                            </div>
+
+                            <div class="action">
+                                <button class="delete">
+                                    <img src="assets/img/delete.svg" alt="">
+                                </button>
+                                <button class="delete">
+                                    <img src="assets/img/edit.svg" alt="">
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="completed"></div>
+        </div>
+
+    </main>
+</body>
+
+</html>
